@@ -14,7 +14,7 @@ pipeline {
     }
     stage('build'){
       steps{
-        sh 'npm run bhuild'
+        sh 'npm run build'
       }
     }
   }
